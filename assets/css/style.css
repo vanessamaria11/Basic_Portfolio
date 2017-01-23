@@ -54,7 +54,7 @@ header {
 }
 
 #midsection{
-	background-image: url('images/pink_rice.png');
+	background: url('images/pink_rice.png');
 }
 
 body {
@@ -64,9 +64,9 @@ body {
 	margin-bottom:40px;
 	font-size: 30px;
 }
-
-#About.me{
-	margin-top: 10px
+h3{
+	color: #4aaaa5;
+	margin-top:5px;
 }
 
 #Aboutme{
@@ -105,9 +105,12 @@ body {
 	margin-top:45px;
 	margin-bottom: 35px;
 	font: Arial;
-	font-color: teal;
 	text-align: left;
 
+}
+#connectwme{
+	padding-top:1px;
+	text-align: center;
 }
 
 .keepleft{
@@ -124,6 +127,7 @@ body {
 	margin-right:10px;
 }
 #linkedin{
+	margin-top:0px;
 	margin-left:10px;
 	float:right;
 }
@@ -140,5 +144,104 @@ footer {
 	text-align: center;
 	float: bottom;
 	margin-top: 800px ;
+	border-top-width: 10px;
+	font-size: 15px;
 
 }
+#Portfolio-pics{
+	float:left;
+	width:400px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	background-color: #ffffff;
+	border-style: solid;
+	height: 500px;
+	margin-left: 40px;
+	margin-top: 45px;
+	margin-bottom: 35px;
+	margin-right: 10px;
+	font: Arial;
+	font-color: teal;
+	text-align: center;
+}
+#photo1{
+	float:left;
+}
+#photo2{
+	float:right;
+}
+#photo3{
+	float:left;
+}
+#photo4{
+	float:right;
+}
+#photo5{
+	float: left;
+}
+#photo6{
+	float:right;
+}
+#connectwmeportfolio{
+	float:right;
+	width:300px;
+	padding-left: 12px;
+	padding-bottom: 5px;
+	padding-top: 3px;
+	background-color: #ffffff;
+	border-style: solid;
+	height: 205px;
+	margin-right: 40px;
+	margin-left:12px;
+	margin-top:45px;
+	margin-bottom: 35px;
+	font: Arial;
+	text-align: left;
+}
+
+#githubicon{
+	float:left;
+	margin-top:-35px;
+	margin-right:10px;
+}
+
+#linkedinicon{
+	float:right;
+	margin-top:0px;
+	margin-left: 10px;
+}
+
+#one{
+	width:150px;
+	background-color:4aaaa5;
+	color:white;
+	margin-top:-20px;
+}
+#two{
+	width:150px;
+	background-color:4aaaa5;
+	color:white;
+	margin-top:-20px;
+}
+#three{
+	width:150px;
+	background-color:4aaaa5;
+	color:white;
+}
+#four{
+	width:150px;
+	background-color:4aaaa5;
+	color:white;
+}
+#five{
+	width:150px;
+	background-color:4aaaa5;
+	color:white;
+}
+#six{
+	width:150px;
+	background-color:4aaaa5;
+	color:white;
+}
+
