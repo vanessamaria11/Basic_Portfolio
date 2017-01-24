@@ -8,6 +8,7 @@ header {
 	border-bottom-width:2px;
 	height: 90px;
 	float:top;
+	margin-top: 0px
 	
 }
 #nametab {
@@ -28,6 +29,7 @@ header {
 }
 header{
 	font-size: 18px;
+	margin:0px;
 }
 
 body{
@@ -68,31 +70,26 @@ body{
 body {
 	width:960px;
 	height:100%;
-	margin-top:35px;
-	margin-bottom:40px;
 	font-size: 30px;
 }
 h3{
 	color: #4aaaa5;
-	margin-top:5px;
+	margin-top:15px;
 }
 
 #Aboutme{
-	float:left;
 	width:400px;
 	padding-left: 5px;
 	padding-bottom: 3px;
 	padding-top: 3px;
 	background-color: #ffffff;
-	border-style: solid;
-	height: 500px;
 	margin-left: 40px;
 	margin-top: 45px;
-	margin-bottom: 35px;
 	margin-right: 10px;
 	font: Arial;
 	font-color: teal;
 	text-align: center;
+	display: inline-block;
 }
 #profilepic{
 	float:left;
@@ -106,7 +103,6 @@ h3{
 	padding-bottom: 5px;
 	padding-top: 3px;
 	background-color: #ffffff;
-	border-style: solid;
 	height: 205px;
 	margin-right: 40px;
 	margin-left:12px;
@@ -151,36 +147,25 @@ footer {
 	padding: 40px 20px 40px 20px;
 	text-align: center;
 	float: bottom;
-	margin-top: 800px ;
+	margin-top: 100px ;
 	border-top-width: 10px;
 	font-size: 15px;
+	margin-bottom:-40px;
 
 }
 #Portfolio-pics{
-	float:left;
 	width:400px;
 	padding-left: 5px;
 	padding-bottom: 3px;
 	padding-top: 3px;
 	background-color: #ffffff;
-	border-style: solid;
-	height: 500px;
 	margin-left: 40px;
 	margin-top: 45px;
-	margin-bottom: 35px;
 	margin-right: 10px;
+	margin-bottom: 10px;
 	font: Arial;
 	font-color: teal;
 	text-align: center;
-}
-#midsection a {
-	display:inline-block;
-
-
-}
-#one{
-	display:inline-block;
-	position: relative;
 }
 #connectwmeportfolio{
 	float:right;
@@ -189,7 +174,6 @@ footer {
 	padding-bottom: 5px;
 	padding-top: 3px;
 	background-color: #ffffff;
-	border-style: solid;
 	height: 205px;
 	margin-right: 40px;
 	margin-left:12px;
@@ -197,6 +181,12 @@ footer {
 	margin-bottom: 35px;
 	font: Arial;
 	text-align: left;
+	display: inline-block;
+}
+#midsection a {
+	display:inline-block;
+
+
 }
 
 #githubicon{
@@ -215,32 +205,81 @@ footer {
 	width:150px;
 	background-color:4aaaa5;
 	color:white;
-	margin-top:-20px;
+	margin:0px;
+	position:relative;
+	top:-30px;
 }
 #two{
 	width:150px;
 	background-color:4aaaa5;
 	color:white;
-	margin-top:-20px;
+	margin:0px;
+	position: relative;
+	top:-30px;
 }
 #three{
 	width:150px;
 	background-color:4aaaa5;
 	color:white;
+	margin:0px;
+	position:relative;
+	top:-30px;
 }
 #four{
 	width:150px;
 	background-color:4aaaa5;
 	color:white;
+	margin:0px;
+	position:relative;
+	top:-30px;
+
 }
 #five{
 	width:150px;
 	background-color:4aaaa5;
 	color:white;
+	margin:0px;
+	position:relative;
+	top:-30px;
+
 }
 #six{
 	width:150px;
 	background-color:4aaaa5;
 	color:white;
+	margin:0px;
+	position:relative;
+	top:-30px;
+
+}
+h4{
+	font-size: 18px
 }
 
+-contact page-
+#middle{
+	margin-top:45px;
+}
+ h5{
+ 	font-size: 15px;
+ 	font-style: normal;
+ }
+
+ #contactmid{
+ 	display:inline-block;
+ 	border-style:hidden;
+ 	background-color: #ffffff;
+ 	padding-left:45px;
+ 	padding-right: 45px;
+ 	margin-left:40px;
+ 	margin-top: 45px;
+
+
+ }
+ #midContact{
+ 	padding-right:10px;
+ }
+ #submit{
+ 	background-color:#4aaaa5;
+ 	padding: 5px;
+ }
