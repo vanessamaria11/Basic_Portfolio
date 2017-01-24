@@ -26,6 +26,14 @@ header {
 	font-size:30px;
 	
 }
+header{
+	font-size: 18px;
+}
+
+body{
+	background-image:url(../images/pink_rice.png)
+}
+
 #abouttab {
 	text-align:right;
 	font-family: Times;
