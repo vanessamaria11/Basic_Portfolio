@@ -173,23 +173,14 @@ footer {
 	font-color: teal;
 	text-align: center;
 }
-#photo1{
-	float:left;
+#midsection a {
+	display:inline-block;
+
+
 }
-#photo2{
-	float:right;
-}
-#photo3{
-	float:left;
-}
-#photo4{
-	float:right;
-}
-#photo5{
-	float: left;
-}
-#photo6{
-	float:right;
+#one{
+	display:inline-block;
+	position: relative;
 }
 #connectwmeportfolio{
 	float:right;
