@@ -263,6 +263,8 @@ h4{
  h5{
  	font-size: 15px;
  	font-style: normal;
+ 	padding:0px;
+ 	margin:2px;
  }
 
  #contactmid{
@@ -273,16 +275,39 @@ h4{
  	padding-right: 45px;
  	margin-left:40px;
  	margin-top: 45px;
-
+ 	width: 400px;
+	
 
  }
  #midContact{
  	padding-right:10px;
- }
+}
  #submit{
  	background-color:#4aaaa5;
  	padding: 5px;
+ 	width: 55px;
+ 	text-align: center;
  }
 #message{
-	padding:5px;
+	padding:0px;
+	width:400px;
+	height: 300px;
+	margin-top: 0px;
+}
+
+#name{
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+#emailtitle{
+	margin-top:30px;
+}
+#email{
+	margin-top:0px;
+	margin-bottom:5px;
+}
+#messagetitle{
+	margin-top:30px;
+	margin-bottom:0px;
+	padding:0px;
 }
